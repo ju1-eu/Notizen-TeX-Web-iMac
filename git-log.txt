@@ -1,4 +1,5 @@
 ju 17-Jan-2021 git-log.txt
-* 3a78552 (HEAD -> master) readme angepasst für iMac
-* 13fef7f (origin/master) start iMac
+* efc6ed8 (HEAD -> master) git
+* 3a78552 (origin/master, backupUSB/master) readme angepasst für iMac
+* 13fef7f start iMac
 * 7cdf9b7 Projekt init

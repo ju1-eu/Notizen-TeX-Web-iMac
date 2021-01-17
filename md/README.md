@@ -116,7 +116,7 @@ git push
 	
 2. Script ausführen: `projekt.sh`
 
-**Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
+**Terminal** öffnen
 
 ```
 $ ./projekt.sh
@@ -159,6 +159,7 @@ SSH: git@github.com:ju1-eu/Notizen-TeX-Web-iMac.git
 
 # create a new repository 
 echo "# README" >> README.md
+# iMac Warnung 
 # git config --global init.defaultBranch master
 git init
 git add .

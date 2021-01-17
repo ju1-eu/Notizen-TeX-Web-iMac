@@ -1,10 +1,3 @@
----
-title: 'README'
-author: ''
-date: \today
-bibliography: literatur.bib 
-csl: zitierstil-number.csl
----
 # README
 <!--ju 17-Jan-21 -->
 Erstellt Websiten & Latex-Files mit Markdown und Pandoc.
@@ -116,7 +109,7 @@ git push
 	
 2. Script ausführen: `projekt.sh`
 
-**Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
+**Terminal** öffnen
 
 ```
 $ ./projekt.sh
@@ -159,6 +152,7 @@ SSH: git@github.com:ju1-eu/Notizen-TeX-Web-iMac.git
 
 # create a new repository 
 echo "# README" >> README.md
+# iMac Warnung 
 # git config --global init.defaultBranch master
 git init
 git add .
