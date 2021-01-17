@@ -1,0 +1,9 @@
+# ju 10-Aug-20 .gitattributes
+
+# Zeilenendenbehandlung für alle Textdateien aktivieren
+* text=auto
+# SVGs als Textdateien und PDFs als Binärdateien behandeln
+*.svg text
+*.pdf binary
+*.x binary
+*.exe binary

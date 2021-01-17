@@ -1,0 +1,56 @@
+%% Cornell Methode
+%% Duplex Druck
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{calc} 
+\pagestyle{empty}
+\usepackage{geometry}
+\geometry{noheadfoot,nomarginpar,top=0.5cm,bottom=0.3cm,left=1.6cm,right=1.6cm}
+\usepackage{tikz} 
+
+\newlength{\wholeboxwd}
+\setlength{\wholeboxwd}{0.98\textwidth}
+\newlength{\wholeboxht}
+\setlength{\wholeboxht}{0.95\textheight}
+%
+\newlength{\topwd}
+\setlength{\topwd}{0.9\wholeboxwd}%Vorlesung/Thema/Datum
+\newlength{\cuewd}
+\setlength{\cuewd}{0.32\wholeboxwd}%6cm Stichworte
+\newlength{\summht}
+\setlength{\summht}{0.18\wholeboxht}%5cm Zusammenfassung
+\newlength{\cgridht}
+\setlength{\cgridht}{\wholeboxht-\summht}
+\newlength{\cgridwd}
+\setlength{\cgridwd}{\wholeboxwd-\cuewd}
+\newlength{\xorig}
+\newlength{\yorig}
+\setlength{\xorig}{0cm}
+\setlength{\yorig}{0cm}
+
+\begin{document} 
+	% Seite 1
+	\begin{center}
+		\begin{tikzpicture} 
+		% Notizen kariert: 0.5cm
+		\draw[step=.5cm,gray!60,thin] (\cuewd,\summht) grid (\wholeboxwd,\wholeboxht);
+		%% Optional: Notizen kariert: 1mm
+		%\draw[step=.1cm,gray!30,thin] (\cuewd,\summht) grid (\wholeboxwd,\wholeboxht);      
+		% Summary, top:
+		\draw [line width=.2pt,gray!60,thin] (\xorig,\summht) -- (\wholeboxwd,\summht);  
+		% Grid, left:
+		\draw [line width=.2pt,gray!60,thin] (\cuewd,\summht) -- (\cuewd,\wholeboxht);
+		% Draw the big box:
+		\draw [line width=.2pt,gray!60,thin](\xorig,\yorig) rectangle (\wholeboxwd,\wholeboxht);
+		\node[anchor=west] at (0.25,\wholeboxht-1em) {\textbf{Stichworte/Fragen}};
+		\node[anchor=west] at (0.25,\summht-1em){\textbf{Zusammenfassung}}; 
+		\node[anchor=west,fill=white] at (\cuewd+1em,\wholeboxht-1em) {\textbf{Notizen}};
+		\node[anchor=west] at (0.25,\wholeboxht+2em){%
+			\parbox[t]{\topwd}{\textbf{Dozent/Quelle:} \hspace{2cm} \textbf{Thema:} \hfill \textbf{Datum:}}%
+		};
+		\end{tikzpicture} 
+	\end{center}
+	
+\end{document}

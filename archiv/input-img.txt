@@ -1,0 +1,12 @@
+<!-----------------------------------------------
+Alle Abbildungen 'images/' in Markdown speichern.
+	* 'archiv/input-img.txt'
+ju 17-Jan-2021 input-img.txt
+------------------------------------------------->
+
+
+Chili-1 vgl. abb.
+
+![Chili-1](images/Chili-1.pdf){width=60%}
+
+

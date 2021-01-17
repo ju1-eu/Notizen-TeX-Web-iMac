@@ -1,0 +1,42 @@
+Schriftart - Source Sans Pro
+
+<https://fonts.adobe.com/fonts/source-sans#fonts-section>
+
+Um diese Schriftarten auf einer Webseite verwenden zu können, kopieren Sie diesen Code in das <head>-Tag Ihrer HTML.
+
+<link rel="stylesheet" href="https://use.typekit.net/hjf8oin.css">
+
+Wenn Sie Schriftarten in HTML-E-Mails verwenden möchten, verwenden Sie den @import-Link.
+
+<style>
+  @import url("https://use.typekit.net/hjf8oin.css");
+</style>
+
+Hinzugefügte Schriftarten:
+
+Source Sans Pro Regular
+
+font-family: source-sans-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Source Sans Pro Bold
+
+font-family: source-sans-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Source Sans Pro Bold Italic
+
+font-family: source-sans-pro, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+
+Source Sans Pro Italic
+
+font-family: source-sans-pro, sans-serif;
+font-weight: 400;
+font-style: italic;
