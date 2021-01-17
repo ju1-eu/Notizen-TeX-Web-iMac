@@ -1,6 +1,7 @@
 ju 17-Jan-2021 git-log.txt
-* dfb1a84 (HEAD -> master) readme angepasst
-* efc6ed8 (origin/master, backupUSB/master) git
+* bc7edf0 (HEAD -> master) readme.pdf erstellt
+* dfb1a84 (origin/master, backupUSB/master) readme angepasst
+* efc6ed8 git
 * 3a78552 readme angepasst für iMac
 * 13fef7f start iMac
 * 7cdf9b7 Projekt init
