@@ -1,19 +1,23 @@
+---
+title: 'README'
+author: ''
+date: \today
+bibliography: literatur.bib 
+csl: zitierstil-number.csl
+---
 # README
-<!--ju 8-Okt-20 -->
+<!--ju 17-Jan-21 -->
 Erstellt Websiten & Latex-Files mit Markdown und Pandoc.
-Projekt wurde getestet unter "Ubuntu 18.04.3 LTS" und "Win10" 
-(erfordert **Git Bash**)  
+Projekt wurde getestet unter "iMac"   
 
-# Mitschrift - Kurzbefehle
+# Kurzbefehle
 
-**Linux-Terminal** oder unter Win10 **Git Bash-Terminal** öffnen
+**Terminal** öffnen
 
 ```
-# Github-Repository klonen
-git clone https://github.com/ju1-eu/Notizen-TeX-Web.git notiz
+# Schreiben in Markdown, Illustrator für Vektorgrafiken und Excel für Tabellen
 
-# Schreiben in Markdown o. Illustrator o. Excel
-./projekt.sh  # Schritt 2, 3)
+./projekt.sh  # Schritt 2, 3, 5
 ##########################################################
 	0) Projekt aufräumen
 	1) Projekt erstellen
@@ -28,33 +32,30 @@ git clone https://github.com/ju1-eu/Notizen-TeX-Web.git notiz
 ##########################################################
 
 # PDF erstellen
-# Anpassen: content/inhalt.tex
-# Kopie:    tex-pandoc/*.tex -> tex/
 make distclean
 make
 make clean
 
 # Git Version
-./projekt.sh  # Schritt 8) oder
 git add .
 git commit -a
-git push      # Github-Repository
+git push
 
 # Backup
-./projekt.sh  # Schritt 9)
+./projekt.sh  # Schritt 9
 ```  
     
 # Software
 
-- Git Bash[^1]
+- #Git Bash[^1]
 - Github-Repository klonen[^2]
 - Texlive (Latex)[^3]
 - Pandoc (Dokumentenconverter)[^4]
-- Imagemagick (Bildbearbeitung)[^5]
+- #Imagemagick (Bildbearbeitung)[^5]
 - Editor Visual Studio Code[^6]
-- Editor Atom[^7]
-- Editor Notepad++[^8]
-- TeXstudio (Latexeditor)[^9]
+- #Editor Atom[^7]
+- #Editor Notepad++[^8]
+- #TeXstudio (Latexeditor)[^9]
 - Tablesgenerator (Latex / Markdown)[^10] 
 - hpi-dokumentvorlagen-latex (Hasso-Plattner-Institut (HPI) Potsdam)[^11] 
 - Zotero (Literaturverwaltung)[^12]
@@ -62,13 +63,13 @@ git push      # Github-Repository
 - XAMPP Apache + MariaDB + PHP[^14]
 - Filezilla[^15]
 - VM VirtualBox[^16]
-- Ubuntu (Desktop / Server)[^17]
+- #Ubuntu (Desktop / Server)[^17]
 - Wordpress-themes[^18]
 - themecheck (Wordpress-themes)[^19]
-- ghostscript Z.B eps in pdf[^20]
+- #ghostscript Z.B eps in pdf[^20]
 
 [^1]: <https://git-scm.com/downloads>
-[^2]: <https://github.com/ju1-eu/Notizen-TeX-Web.git>
+[^2]: <https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git>
 [^3]: <https://www.tug.org/texlive/>
 [^4]: <https://pandoc.org/installing.html>
 [^5]: <https://imagemagick.org/script/download.php>
@@ -97,14 +98,11 @@ git push      # Github-Repository
 	- CMS Server Pfad: `https://bw-ju.de/#`
 	- Bildformat: svg, png, jpg, webp
 2. `scripteBash/gitversionieren.sh`
-	- "/media/jan/usb/repos/notizenUbuntu"
-	- "/media/jan/virtuell/repos/notizenUbuntu"
+	- "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
 3. `projekt.sh`
-	- THEMA="Notizen-TeX-Web"
-	- "/media/jan/usb/backup/notizenUbuntu"
-	- "/media/jan/virtuell/backup/notizenUbuntu"
-	- "/media/jan/usb/archiv/notizenUbuntu"
-	- "/media/jan/virtuell/archiv/notizenUbuntu"
+	- THEMA="Notizen-TeX-Web-iMac"
+	- "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
+	- "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"
 4. `content/metadata.tex`
 	- Datum, Titel, Autor
 5. `content/titelpage.tex`
@@ -156,24 +154,25 @@ GitHub's maximum file size of **50 MB**
 
 ```
 # HTTPS oder SSH
-HTTPS: https://github.com/ju1-eu/Notizen-TeX-Web.git
-SSH: git@github.com:ju1-eu/Notizen-TeX-Web.git
+HTTPS: https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
+SSH: git@github.com:ju1-eu/Notizen-TeX-Web-iMac.git
 
 # create a new repository 
 echo "# README" >> README.md
+# git config --global init.defaultBranch master
 git init
 git add .
 git commit -m "git init"
                 
 # or push an existing repository 
-git remote add origin https://github.com/ju1-eu/Notizen-TeX-Web.git
+git remote add origin https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
 git push -u origin master
 ```
 
 **Github-Repository klonen**
 
 ```
-git clone https://github.com/ju1-eu/Notizen-TeX-Web.git
+git clone https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
 ```
 
 # Script Beschreibung
@@ -220,13 +219,9 @@ git clone https://github.com/ju1-eu/Notizen-TeX-Web.git
 	- lokales Repository: master
 	- Github Repository: origin/master
 	- Backup Repository: backupUSB/master
-		- "/media/jan/usb/repos/notizenUbuntu"
-	- Backup Repository: backupHD/master
-		- "/media/jan/virtuell/repos/notizenUbuntu"
+		- "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
 9) Backup + Archiv erstellen
 	- **Pfade** anpassen in `projekt.sh`
-	- THEMA="Notizen-TeX-Web"
-	- "/media/jan/usb/backup/notizenUbuntu"
-	- "/media/jan/virtuell/backup/notizenUbuntu"
-	- "/media/jan/usb/archiv/notizenUbuntu"
-	- "/media/jan/virtuell/archiv/notizenUbuntu"
+	- THEMA="Notizen-TeX-Web-iMac"
+	- "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
+	- "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"

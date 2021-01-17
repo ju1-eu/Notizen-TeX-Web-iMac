@@ -1,1 +1,3 @@
-* 7cdf9b7 (HEAD -> master) Projekt init
+ju 17-Jan-2021 git-log.txt
+* 13fef7f (HEAD -> master) start iMac
+* 7cdf9b7 Projekt init
