@@ -190,7 +190,7 @@ while [ "$janein" -eq 1 ]; do
 		# archiv
 		ID=$(git rev-parse --short HEAD) # git commit (hashwert) = id
 		
-		#tar cvzf $archiv_USB/$timestamp_3'_'$THEMA'_v_'$ID.tgz .
+		tar cvzf $archiv_USB/$timestamp_3'_'$THEMA'_v_'$ID.tgz .
 
 		#tar cvzf ../$timestamp_3'_'$THEMA'_v'$ID.tgz .
 		#tar cvzf ../$THEMA.tgz .
@@ -208,8 +208,8 @@ while [ "$janein" -eq 1 ]; do
 		# version erstellen
 		tar cvzf ../$timestamp_3'_'$THEMA'_v'$ID.tgz .
 		
-		#rm -rf $archiv_USB/$THEMA.zip
-	    #zip -r $archiv_USB/$THEMA.zip .
+		rm -rf $archiv_USB/$THEMA.zip
+	    zip -r $archiv_USB/$THEMA.zip .
 		
 		if [ ! -f $archiv/$tex.zip ]; then
 			zip -r $archiv/$tex.zip tex/
