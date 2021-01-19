@@ -1,48 +1,55 @@
-# ju 10-Aug-20 .gitconfig
+# ju 19-Jan-21 .gitconfig
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [user]
-  name = ju 
-  email = mail@ju1.eu
+    name = Jan iMac
+    email = esel573@gmail.com
+[init]
+    defaultBranch = master
 
 [color]
-  ui = auto
+    ui = auto
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+    current = yellow reverse
+    local = yellow
+    remote = green
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
 [color "status"]
-  added = green
-  changed = yellow
-  untracked = cyan
+    added = green
+    changed = yellow
+    untracked = cyan
 
 [alias]
-  st = status 
-  cl = clone
-  c = commit -m
-  cam = commit -am
-  ca = commit --amend
-  co = checkout
-  br = branch -a
-  brm = branch --merged
-  r = reset
-  lg = log --oneline --graph --decorate
-  lo = log --oneline --decorate
-  ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%an]" --decorate --date=relative
-  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [a:%an,c:%cn]" --decorate --numstat
-  d = diff --word-diff
-  dc = diff --cached
+    st = status 
+    cl = clone
+    c = commit -m
+    cam = commit -am
+    ca = commit --amend
+    co = checkout
+    br = branch -a
+    brm = branch --merged
+    r = reset
+    lg = log --oneline --graph --decorate
+    lo = log --oneline --decorate
+    ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%an]" --decorate --date=relative
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [a:%an,c:%cn]" --decorate --numstat
+    d = diff --word-diff
+    dc = diff --cached
 
 [push]
-  default = simple
+    default = simple
 
 [core]
-  editor = vim
-  autocrlf = input
-  logAllRefUpdates = true
+    editor = vim
+    autocrlf = input
+    logAllRefUpdates = true
 
 [merge]
 	tool = bc3
@@ -52,11 +59,11 @@
 	default = heads/*
 [diff]
 	tool = bc3
-  renames = true
+    renames = true
 [difftool "bc3"]
 	trustExitCode = true
 [mergetool "bc3"]
 	trustExitCode = true
 
 [pull]
-  rebase = true
+    rebase = true

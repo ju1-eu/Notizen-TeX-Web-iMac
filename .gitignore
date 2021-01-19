@@ -1,4 +1,6 @@
-# ju 10-Aug-20 .gitignore
+# ju 19-Jan-21 .gitignore
+.gitignore~
+.gitconfig~
 *.lot                        
 *.blg
 *.out      
@@ -23,7 +25,8 @@ tex-pandoc/
 img-out/
 md/build/
 
-!git-log.txt
+git-log.txt
+
 !README.pdf
 !praeambel.sty
 !praeambel-artikel.sty
