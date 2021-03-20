@@ -14,10 +14,8 @@
 # Variablen
 tex="tex"
 tabelle="Tabellen"
-QUELLE_1="Ubungsblaetter"
-QUELLE_2="Altklausuren"
-file_1="Ubungsblaetter-PDFs.tex"
-file_2="Altklausuren-PDFs.tex"
+QUELLE_1="PDF"
+file_1="x-PDFs.tex"
 file="input-PDFs.txt"
 archiv="archiv"  # > $archiv/$file
 info="Tabellen als PDFs in Latex einfügen. 'Tabellen/*.pdf ?'"
@@ -29,7 +27,6 @@ echo "+ $info"
 # File neu anlegen
 printf "%% $copyright $file \n\n" > $archiv/$file
 printf "%% $copyright $file_1 \n\n" > $tabelle/$file_1
-printf "%% $copyright $file_2 \n\n" > $tabelle/$file_2
 
 cd $tabelle
 EXTENSION="pdf" 
@@ -66,27 +63,6 @@ if [ $exist -ge 1 ]; then
 		printf "%% -------\n" >> ../$file_1		
 		printf "\section{$pdfname}\label{sec:$pdfname}\index{$pdfname}\n" >> ../$file_1
 		printf "\includepdf[pages=-]{$tabelle/$QUELLE_1/$i}\n\n"          >> ../$file_1
-	done
-fi
-cd ..
-
-cd $QUELLE_2
-EXTENSION="pdf" 
-# FEHLER unter mac!!!!
-#exist=$(find -iname "*.$EXTENSION" | wc -l)
-exist=1
-if [ $exist -ge 1 ]; then
-    # vorhanden
-	printf "\chapter{$QUELLE_2}%% book, print anpassen\n\n" >> ../$file_2
-	for i in *.pdf; do
-		# Dateiname ohne Endung
-		pdfname=`basename "$i" .pdf`
-		# PDF Dokumente einbinden
-		#\section{Tabelle}\label{sec:Tabelle}\index{Tabelle}
-		#\includepdf[pages=-]{Tabellen/tabelle.pdf}
-		printf "%% -------\n" >> ../$file_2	
-		printf "\section{$pdfname}\label{sec:$pdfname}\index{$pdfname}\n" >> ../$file_2
-		printf "\includepdf[pages=-]{$tabelle/$QUELLE_2/$i}\n\n"          >> ../$file_2
 	done
 fi
 cd ../..

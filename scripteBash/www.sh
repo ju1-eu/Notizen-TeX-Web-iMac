@@ -1,7 +1,7 @@
 #!/bin/bash -e
-# ju 10-Aug-20
+# ju 20-Mrz-21
 
-# index.html + pics.html erstellen
+# Websiten erstellen
 
 # Variable anpassen
 THEMA="Notizen-TeX-Web-iMac"
@@ -10,8 +10,9 @@ html="html"
 file="index.html"
 img="images"
 GRAFIKEN="Grafiken"
+PDF="Tabellen/PDF"
 
-info="index.html + pics.html erstellen."
+info="Websiten erstellen."
 timestamp=$(date +"%d-%h-%y") # 11-Aug-20
 copyright="ju $timestamp"
 
@@ -59,7 +60,6 @@ echo "	<p><a href=\"../$file\">Start</a></p>
 	<h2>alle Pics</h2>"  >> ./$html/$pics
 
 cd $img
-
 EXTENSION="webp"
 # FEHLER unter mac!!!! 
 #exist=$(find -iname "*.$EXTENSION" | wc -l)
@@ -69,27 +69,6 @@ if [ $exist -ge 1 ]; then
 	for i in *.webp; do
 		# Dateiname ohne Endung
 		filename=`basename "$i" .webp` # anpassen
-		# html/alle-pics.html
-		echo "	<!-- Abb. $n -->
-		<p><a href=\"../$img/$i\">
-		<figure>
-			<img class=scaled src=\"../$img/$i\" alt=\"$filename\" style="width:60.0%">
-			<figcaption>Abb. $n : $i</figcaption>
-		</figure>
-		</a></p>" >> ../$html/$pics
-		((n+=1))
-	done
-fi
-
-EXTENSION="svg" 
-# FEHLER unter mac!!!! 
-#exist=$(find -iname "*.$EXTENSION" | wc -l)
-exist=1
-n=1 # Pic Zaehler ((n+=1))
-if [ $exist -ge 1 ]; then
-	for i in *.svg; do
-		# Dateiname ohne Endung
-		filename=`basename "$i" .svg` # anpassen
 		# html/alle-pics.html
 		echo "	<!-- Abb. $n -->
 		<p><a href=\"../$img/$i\">
@@ -122,11 +101,9 @@ if [ $exist -ge 1 ]; then
 		((n+=1))
 	done
 fi
-
 cd ..
 
 cd $GRAFIKEN
-
 EXTENSION="svg" 
 # FEHLER unter mac!!!! 
 #exist=$(find -iname "*.$EXTENSION" | wc -l)
@@ -147,13 +124,36 @@ if [ $exist -ge 1 ]; then
 		((n+=1))
 	done
 fi
-
-
-echo "+ $html/alle-pics.html wurde erstellt"
-
 cd ..
 
+echo "+ $html/alle-pics.html wurde erstellt"
 echo "$T5"     >> ./$html/$pics
+
+
+#----------------------
+# File neu anlegen
+# alle x-PDFs
+X_PDFs="alle-x-PDFs.html"
+echo "<!--$copyright-->"  >  ./$html/$X_PDFs
+echo "$T1"                >> ./$html/$X_PDFs
+echo "$T3"                >> ./$html/$X_PDFs
+echo "$T4"                >> ./$html/$X_PDFs
+echo "	<p><a href=\"../$file\">Start</a></p>
+	<h1>$THEMA</h1>
+	<h2>$X_PDFs</h2>"    >> ./$html/$X_PDFs
+
+cd $PDF
+for i in *.pdf; do
+	# navi - alle-x-PDFs.html
+	echo "		<li><a href=\"../$PDF/$i\">$i</a></li>"  >> ../../$html/$X_PDFs
+done
+cd ../..
+
+echo "	</ul>" >> ./$html/$X_PDFs
+echo "$T5"     >> ./$html/$X_PDFs
+echo "+ $html/alle-x-PDFs.html wurde erstellt"
+
+
 
 # -------------------------
 # index.html
@@ -166,7 +166,5 @@ cd ..
 
 echo "	</ul>" >> $file
 echo "$T5"     >> $file
-
 echo "+ index.html wurde erstellt"
-
 echo "...fertig."

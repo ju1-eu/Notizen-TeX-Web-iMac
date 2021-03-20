@@ -1,9 +1,6 @@
-% -------------------------------------------------------
-% Tabellen als PDFs in Latex einfügen. 'Tabellen/*.pdf ?' 
-% ju 17-Jan-2021 input-PDFs.txt
-% -------------------------------------------------------
-% 
-\section{*}
+% ju 20-Mär-2021 input-PDFs.txt 
+
 % -------
-\includepdf[scale=0.95, landscape=false,pages={1-1},nup=1x1,frame=false]{Tabellen/*.pdf}
+\section{*}
+\includepdf[pages=-]{Tabellen/*.pdf}
 
