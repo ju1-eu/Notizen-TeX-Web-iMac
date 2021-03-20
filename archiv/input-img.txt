@@ -10,3 +10,8 @@ Chili-1 vgl. abb.
 ![Chili-1](images/Chili-1.pdf){width=60%}
 
 
+Lueftersteuerung-1 vgl. abb.
+
+![Lueftersteuerung-1](images/Lueftersteuerung-1.pdf){width=60%}
+
+

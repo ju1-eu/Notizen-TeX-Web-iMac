@@ -27,9 +27,8 @@ md/build/
 
 git-log.txt
 
-!README.pdf
-!praeambel.sty
-!praeambel-artikel.sty
+praeambel.sty
+praeambel-artikel.sty
 
 book.pdf
 print.pdf
