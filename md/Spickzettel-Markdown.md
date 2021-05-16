@@ -32,7 +32,7 @@ update: 10-Aug-20
 # Schreiben in Markdown 
 
 1. Markdown
-2. Textauszeichnung -- Was ist wichtig?, Tabellen, Bilder, Quellcode, Literatur, Links
+2. Textauszeichnung -- Was ist wichtig? Tabellen, Bilder, Quellcode, Literatur, Links
 3. Rechtschreibprüfung [^3]
 4. Literatur [^4]
     
@@ -44,10 +44,10 @@ update: 10-Aug-20
 1. Markdown > Latex: `$ projekt.sh` Script (pandoc) 
 2. Hand-Kopie: `tex_pandoc/ tex/`
 3. Referenzen: Links prüfen
-	- Bild vgl. abb.    > `(\autoref{fig:bild}).` 
-	- Tabelle vgl. tab. > `(\autoref{tab:tabellen}).` 
-	- Kapitel vgl. kap. > `(\autoref{sec:zusammenfassung}).`
-	- Code vgl. code.   > `(\autoref{code:hallowelt})`. 
+    - Bild vgl. abb.    > `(\autoref{fig:bild}).` 
+    - Tabelle vgl. tab. > `(\autoref{tab:tabellen}).` 
+    - Kapitel vgl. kap. > `(\autoref{sec:zusammenfassung}).`
+    - Code vgl. code.   > `(\autoref{code:hallowelt})`. 
 4. Latex > PDF: `$ make` Makefile (latexmk)
    
 #  Quellen
@@ -70,13 +70,13 @@ Quelle: [@kofler:2018:hacking]
   
 - a
 - b
-	- bb
+    - BB
 - c
 
 ```
 - a
 - b
-	- bb
+    - bb
 - c
 ```
   
@@ -151,9 +151,9 @@ Tabelle-Bsp vgl. tab.
 |       4 | a1           | a2            |
 ```
   
-#  Mathe
+#  Mathematik
   
-$[ V ] = [ \Omega ] \cdot [ A ]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
+$[V] = [\Omega] \cdot [A]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
 
 ```
 $[ V ] = [ \Omega ] \cdot [ A ]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
@@ -174,15 +174,15 @@ $80~\\%$ // in Latex
 $80~\%$  // in HTML
 ```
   
-**Matheumgebung:**
+**Mathematik-Umgebung:**
   
 \begin{align*}
-	\sum_{i=1}^5 a_i = a_1 + a_2 + a_3 + a_4 + a_5
+    \sum_{i=1}^5 a_i = a_1 + a_2 + a_3 + a_4 + a_5
 \end{align*}
 
 ```
 \begin{align*}
-	\sum_{i=1}^5 a_i = a_1 + a_2 + a_3 + a_4 + a_5
+    \sum_{i=1}^5 a_i = a_1 + a_2 + a_3 + a_4 + a_5
 \end{align*}
 ```
   
@@ -196,7 +196,7 @@ $80~\%$  // in HTML
   
 #  Code 
 
-HalloWelt vgl. code.
+Hallo Welt vgl. code.
   
 ```
 // hallowelt.c
@@ -215,12 +215,12 @@ int main(void) {
 <https://google.de> oder [Google](https://google.de)
 ```
 
-Fussnote[^1]       
+Fußnote[^1]       
 
 [^1]: <https://bw-ju.de/>
 
 ```
-Fussnote[^1]       
+Fußnote[^1]       
 
 [^1]: <https://bw-ju.de/>
 ```

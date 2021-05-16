@@ -1,15 +1,15 @@
 % ---------------------------------
 % Inhalt vom Projektverzeichnis.
 % 'archiv/Projekt-Inhalt.txt'
-% ju 20-Mär-2021 Projekt-Inhalt.txt
+% ju 16-Mai-2021 Projekt-Inhalt.txt
 % ---------------------------------
 % 
 /Users/jan/latex/Notizen-TeX-Web-iMac
--rw-r--r--@ 1 jan  staff   982B 20 Mär 10:47 index.html
+-rw-r--r--@ 1 jan  staff   6,1K 16 Mai 18:41 README.md
+-rw-r--r--@ 1 jan  staff   575B 20 Mär 10:53 git-log.txt
+-rw-r--r--@ 1 jan  staff   982B 20 Mär 10:52 index.html
 -rw-r--r--@ 1 jan  staff   535K 20 Mär 10:29 print.pdf
 -rw-r--r--  1 jan  staff   533K 20 Mär 10:29 book.pdf
--rw-r--r--@ 1 jan  staff   530B 20 Mär 10:24 git-log.txt
--rw-r--r--@ 1 jan  staff   5,7K 17 Jan 22:03 README.md
 -rwxr-xr-x@ 1 jan  staff   5,8K 17 Jan 21:39 projekt.sh
 -rw-r--r--@ 1 jan  staff   1,5K 17 Jan 19:54 Makefile
 -rw-r--r--  1 jan  staff   1,5K 13 Jan 13:20 print.tex
@@ -19,59 +19,108 @@
 
 tex-pandoc:
 total 96
-drwxr-xr-x   8 jan  staff   256B 20 Mär 10:52 .
--rw-r--r--   1 jan  staff   6,7K 20 Mär 10:52 Spickzettel-Markdown.tex
--rw-r--r--   1 jan  staff   6,7K 20 Mär 10:52 Spickzettel-Markdown.tex-e
--rw-r--r--   1 jan  staff   8,4K 20 Mär 10:52 README.tex
--rw-r--r--   1 jan  staff   8,4K 20 Mär 10:52 README.tex-e
--rw-r--r--   1 jan  staff    13B 20 Mär 10:52 Neu.tex
--rw-r--r--   1 jan  staff    13B 20 Mär 10:52 Neu.tex-e
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x   8 jan  staff   256B 16 Mai 20:34 .
+-rw-r--r--   1 jan  staff   6,8K 16 Mai 20:34 Spickzettel-Markdown.tex
+-rw-r--r--   1 jan  staff   6,8K 16 Mai 20:34 Spickzettel-Markdown.tex-e
+-rw-r--r--   1 jan  staff   8,4K 16 Mai 20:34 README.tex
+-rw-r--r--   1 jan  staff   8,4K 16 Mai 20:34 README.tex-e
+-rw-r--r--   1 jan  staff    13B 16 Mai 20:34 Neu.tex
+-rw-r--r--   1 jan  staff    13B 16 Mai 20:34 Neu.tex-e
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 
 html:
 total 160
-drwxr-xr-x  12 jan  staff   384B 20 Mär 10:52 .
--rw-r--r--   1 jan  staff   766B 20 Mär 10:52 alle-x-PDFs.html
--rw-r--r--   1 jan  staff   766B 20 Mär 10:52 alle-x-PDFs.html-e
--rw-r--r--   1 jan  staff   1,8K 20 Mär 10:52 alle-pics.html
--rw-r--r--   1 jan  staff   1,8K 20 Mär 10:52 alle-pics.html-e
--rw-r--r--   1 jan  staff   9,8K 20 Mär 10:52 Spickzettel-Markdown.html
--rw-r--r--   1 jan  staff   9,8K 20 Mär 10:52 Spickzettel-Markdown.html-e
--rw-r--r--   1 jan  staff    14K 20 Mär 10:52 README.html
--rw-r--r--   1 jan  staff    14K 20 Mär 10:52 README.html-e
--rw-r--r--   1 jan  staff   931B 20 Mär 10:52 Neu.html
--rw-r--r--   1 jan  staff   931B 20 Mär 10:52 Neu.html-e
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x  12 jan  staff   384B 16 Mai 20:34 .
+-rw-r--r--   1 jan  staff   766B 16 Mai 20:34 alle-x-PDFs.html
+-rw-r--r--   1 jan  staff   766B 16 Mai 20:34 alle-x-PDFs.html-e
+-rw-r--r--   1 jan  staff   1,8K 16 Mai 20:34 alle-pics.html
+-rw-r--r--   1 jan  staff   1,8K 16 Mai 20:34 alle-pics.html-e
+-rw-r--r--   1 jan  staff   9,9K 16 Mai 20:34 Spickzettel-Markdown.html
+-rw-r--r--   1 jan  staff   9,8K 16 Mai 20:34 Spickzettel-Markdown.html-e
+-rw-r--r--   1 jan  staff    14K 16 Mai 20:34 README.html
+-rw-r--r--   1 jan  staff    14K 16 Mai 20:34 README.html-e
+-rw-r--r--   1 jan  staff   931B 16 Mai 20:34 Neu.html
+-rw-r--r--   1 jan  staff   931B 16 Mai 20:34 Neu.html-e
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 
 cms-server:
 total 112
-drwxr-xr-x   8 jan  staff   256B 20 Mär 10:52 .
--rw-r--r--   1 jan  staff   8,0K 20 Mär 10:52 Spickzettel-Markdown.html
--rw-r--r--   1 jan  staff   8,0K 20 Mär 10:52 Spickzettel-Markdown.html-e
--rw-r--r--   1 jan  staff    13K 20 Mär 10:52 README.html
--rw-r--r--   1 jan  staff    12K 20 Mär 10:52 README.html-e
--rw-r--r--   1 jan  staff    20B 20 Mär 10:52 Neu.html
--rw-r--r--   1 jan  staff    20B 20 Mär 10:52 Neu.html-e
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x   8 jan  staff   256B 16 Mai 20:34 .
+-rw-r--r--   1 jan  staff   8,0K 16 Mai 20:34 Spickzettel-Markdown.html
+-rw-r--r--   1 jan  staff   8,0K 16 Mai 20:34 Spickzettel-Markdown.html-e
+-rw-r--r--   1 jan  staff    13K 16 Mai 20:34 README.html
+-rw-r--r--   1 jan  staff    12K 16 Mai 20:34 README.html-e
+-rw-r--r--   1 jan  staff    20B 16 Mai 20:34 Neu.html
+-rw-r--r--   1 jan  staff    20B 16 Mai 20:34 Neu.html-e
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 
 cms-lokal:
 total 112
-drwxr-xr-x   8 jan  staff   256B 20 Mär 10:52 .
--rw-r--r--   1 jan  staff   7,9K 20 Mär 10:52 Spickzettel-Markdown.html
--rw-r--r--   1 jan  staff   7,9K 20 Mär 10:52 Spickzettel-Markdown.html-e
--rw-r--r--   1 jan  staff    13K 20 Mär 10:52 README.html
--rw-r--r--   1 jan  staff    12K 20 Mär 10:52 README.html-e
--rw-r--r--   1 jan  staff    20B 20 Mär 10:52 Neu.html
--rw-r--r--   1 jan  staff    20B 20 Mär 10:52 Neu.html-e
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x   8 jan  staff   256B 16 Mai 20:34 .
+-rw-r--r--   1 jan  staff   7,9K 16 Mai 20:34 Spickzettel-Markdown.html
+-rw-r--r--   1 jan  staff   7,9K 16 Mai 20:34 Spickzettel-Markdown.html-e
+-rw-r--r--   1 jan  staff    13K 16 Mai 20:34 README.html
+-rw-r--r--   1 jan  staff    12K 16 Mai 20:34 README.html-e
+-rw-r--r--   1 jan  staff    20B 16 Mai 20:34 Neu.html
+-rw-r--r--   1 jan  staff    20B 16 Mai 20:34 Neu.html-e
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+
+md:
+total 248
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+drwxr-xr-x  15 jan  staff   480B 16 Mai 20:32 .
+-rw-r--r--   1 jan  staff   6,1K 16 Mai 18:41 README.md
+-rw-r--r--   1 jan  staff   4,7K 16 Mai 18:24 Spickzettel-Markdown.md
+-rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:18 .DS_Store
+-rw-r--r--   1 jan  staff    13K 13 Jan 13:20 zitierstil-number.csl
+-rw-r--r--   1 jan  staff    29K 13 Jan 13:20 pandoc.latex
+-rw-r--r--   1 jan  staff   9,9K 13 Jan 13:20 literatur.bib
+-rw-r--r--   1 jan  staff   6,9K 13 Jan 13:20 literatur-sport.bib
+-rw-r--r--   1 jan  staff   5,1K 13 Jan 13:20 literatur-kfz.bib
+-rw-r--r--   1 jan  staff   6,0K 13 Jan 13:20 github.css
+-rw-r--r--   1 jan  staff   1,3K 13 Jan 13:20 design.css
+-rw-r--r--   1 jan  staff   582B 13 Jan 13:20 _output.yaml
+-rw-r--r--   1 jan  staff   136B 13 Jan 13:20 Neu.md
+-rw-r--r--   1 jan  staff   1,6K 13 Jan 13:20 Makefile
+
+img-in:
+total 24
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+-rw-r--r--@  1 jan  staff    10K 20 Mär 11:28 .DS_Store
+drwxr-xr-x   5 jan  staff   160B 20 Mär 11:27 .
+drwxr-xr-x   3 jan  staff    96B 20 Mär 10:44 Lueftersteuerung
+drwxr-xr-x   4 jan  staff   128B 20 Mär 10:42 Chili
+
+img-out:
+total 32
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+-rw-r--r--@  1 jan  staff    10K 20 Mär 11:27 .DS_Store
+drwxr-xr-x   6 jan  staff   192B 20 Mär 11:27 .
+drwxr-xr-x   6 jan  staff   192B 20 Mär 11:14 Chili
+drwxr-xr-x   6 jan  staff   192B 20 Mär 11:14 Lueftersteuerung
+-rw-r--r--   1 jan  staff    38B 20 Mär 11:14 pics-liste.txt
+
+archiv:
+total 152
+-rw-r--r--   1 jan  staff   4,2K 16 Mai 20:34 Projekt-Inhalt.txt
+-rw-r--r--   1 jan  staff    94B 16 Mai 20:34 input-PDFs.txt
+-rw-r--r--@  1 jan  staff   2,4K 16 Mai 20:34 inhalt.tex
+-rw-r--r--   1 jan  staff   367B 16 Mai 20:34 input-img.txt
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+drwxr-xr-x  11 jan  staff   352B 20 Mär 10:54 .
+-rw-r--r--   1 jan  staff    29K 20 Mär 10:54 md.zip
+-rw-r--r--   1 jan  staff   5,3K 20 Mär 10:54 tex.zip
+-rw-r--r--   1 jan  staff   2,3K 20 Mär 10:52 Pics-files.tex
+-rw-r--r--   1 jan  staff   1,9K 20 Mär 10:52 Quellcode-files.tex
+-rw-r--r--@  1 jan  staff   6,0K 17 Jan 20:48 .DS_Store
 
 Tabellen:
 total 88
--rw-r--r--   1 jan  staff   174B 20 Mär 10:52 x-PDFs.tex
--rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:50 .DS_Store
+-rw-r--r--   1 jan  staff   173B 16 Mai 20:34 x-PDFs.tex
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+-rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:55 .DS_Store
 drwxr-xr-x  11 jan  staff   352B 20 Mär 10:50 .
 drwxr-xr-x   4 jan  staff   128B 20 Mär 10:33 PDF
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
 -rw-r--r--   1 jan  staff    10K 13 Jan 13:20 vorlage.xlsx
 -rw-r--r--   1 jan  staff   541B 13 Jan 13:20 tabelle.md
 -rw-r--r--   1 jan  staff   254B 13 Jan 13:20 tabelle.csv
@@ -81,6 +130,7 @@ drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
 
 images:
 total 3064
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rw-r--r--@  1 jan  staff    10K 20 Mär 10:47 .DS_Store
 drwxr-xr-x  10 jan  staff   320B 20 Mär 10:47 .
 -rw-r--r--@  1 jan  staff   284K 20 Mär 10:44 Lueftersteuerung-1.webp
@@ -90,60 +140,10 @@ drwxr-xr-x  10 jan  staff   320B 20 Mär 10:47 .
 -rw-r--r--   1 jan  staff   298K 20 Mär 10:44 Chili-1.jpg
 -rw-r--r--   1 jan  staff   121K 20 Mär 10:44 Chili-1.pdf
 -rw-r--r--   1 jan  staff    23B 20 Mär 10:44 pics-liste.txt
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
-
-img-out:
-total 32
--rw-r--r--@  1 jan  staff    10K 20 Mär 10:46 .DS_Store
-drwxr-xr-x   6 jan  staff   192B 20 Mär 10:44 Lueftersteuerung
-drwxr-xr-x   5 jan  staff   160B 20 Mär 10:44 Chili
--rw-r--r--   1 jan  staff    23B 20 Mär 10:44 pics-liste.txt
-drwxr-xr-x   6 jan  staff   192B 20 Mär 10:44 .
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
-
-img-in:
-total 24
--rw-r--r--@  1 jan  staff    10K 20 Mär 10:44 .DS_Store
-drwxr-xr-x   3 jan  staff    96B 20 Mär 10:44 Lueftersteuerung
-drwxr-xr-x   5 jan  staff   160B 20 Mär 10:43 .
-drwxr-xr-x   4 jan  staff   128B 20 Mär 10:42 Chili
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
-
-archiv:
-total 152
--rw-r--r--   1 jan  staff   4,2K 20 Mär 10:52 Projekt-Inhalt.txt
--rw-r--r--   1 jan  staff    95B 20 Mär 10:52 input-PDFs.txt
--rw-r--r--@  1 jan  staff   2,4K 20 Mär 10:52 inhalt.tex
--rw-r--r--   1 jan  staff   368B 20 Mär 10:52 input-img.txt
--rw-r--r--   1 jan  staff   2,3K 20 Mär 10:47 Pics-files.tex
--rw-r--r--   1 jan  staff   1,9K 20 Mär 10:47 Quellcode-files.tex
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
-drwxr-xr-x  11 jan  staff   352B 20 Mär 10:25 .
--rw-r--r--   1 jan  staff    29K 20 Mär 10:25 md.zip
--rw-r--r--   1 jan  staff   5,3K 20 Mär 10:25 tex.zip
--rw-r--r--@  1 jan  staff   6,0K 17 Jan 20:48 .DS_Store
-
-md:
-total 248
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
--rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:18 .DS_Store
-drwxr-xr-x  15 jan  staff   480B 20 Mär 10:18 .
--rw-r--r--@  1 jan  staff   5,8K 17 Jan 22:04 README.md
--rw-r--r--   1 jan  staff    13K 13 Jan 13:20 zitierstil-number.csl
--rw-r--r--   1 jan  staff    29K 13 Jan 13:20 pandoc.latex
--rw-r--r--   1 jan  staff   9,9K 13 Jan 13:20 literatur.bib
--rw-r--r--   1 jan  staff   6,9K 13 Jan 13:20 literatur-sport.bib
--rw-r--r--   1 jan  staff   5,1K 13 Jan 13:20 literatur-kfz.bib
--rw-r--r--   1 jan  staff   6,0K 13 Jan 13:20 github.css
--rw-r--r--   1 jan  staff   1,3K 13 Jan 13:20 design.css
--rw-r--r--   1 jan  staff   582B 13 Jan 13:20 _output.yaml
--rw-r--r--   1 jan  staff   4,6K 13 Jan 13:20 Spickzettel-Markdown.md
--rw-r--r--   1 jan  staff   136B 13 Jan 13:20 Neu.md
--rw-r--r--   1 jan  staff   1,6K 13 Jan 13:20 Makefile
 
 scripteBash:
 total 3760
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rwxr-xr-x@  1 jan  staff   1,9K 20 Mär 10:22 inputPdfsLatex.sh
 -rwxr-xr-x@  1 jan  staff   4,0K 20 Mär 10:16 www.sh
 -rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:12 .DS_Store
@@ -165,7 +165,7 @@ drwxr-xr-x  12 jan  staff   384B 13 Jan 13:20 scripte-unbenutzt
 
 content:
 total 4352
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rw-r--r--   1 jan  staff   5,2K 20 Mär 10:29 titlepage.aux
 -rw-r--r--@  1 jan  staff   565B 20 Mär 10:28 titlepage.tex
 drwxr-xr-x  25 jan  staff   800B 27 Feb 18:17 .
@@ -193,7 +193,7 @@ drwxr-xr-x   7 jan  staff   224B 13 Jan 13:20 beispiele
 
 code:
 total 264
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rwxr-xr-x   1 jan  staff    55K 21 Feb 17:00 hallowelt_C++
 drwxr-xr-x   9 jan  staff   288B 21 Feb 17:00 .
 -rwxr-xr-x   1 jan  staff    48K 21 Feb 17:00 hallowelt
@@ -205,7 +205,7 @@ drwxr-xr-x   9 jan  staff   288B 21 Feb 17:00 .
 
 tex:
 total 56
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 drwxr-xr-x   5 jan  staff   160B 17 Jan 22:05 .
 -rw-r--r--   1 jan  staff   8,4K 17 Jan 22:04 README.tex
 -rw-r--r--@  1 jan  staff   6,0K 17 Jan 20:51 .DS_Store
@@ -213,9 +213,9 @@ drwxr-xr-x   5 jan  staff   160B 17 Jan 22:05 .
 
 Artikel:
 total 40
--rw-r--r--   1 jan  staff   943B 20 Mär 10:47 Spickzettel-Markdown-artikel.tex
--rw-r--r--   1 jan  staff   915B 20 Mär 10:47 README-artikel.tex
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
+-rw-r--r--   1 jan  staff   943B 20 Mär 10:52 Spickzettel-Markdown-artikel.tex
+-rw-r--r--   1 jan  staff   915B 20 Mär 10:52 README-artikel.tex
 -rw-r--r--@  1 jan  staff   6,0K 20 Mär 10:30 .DS_Store
 drwxr-xr-x  22 jan  staff   704B 20 Mär 10:22 Bsp
 drwxr-xr-x   7 jan  staff   224B 17 Jan 20:50 .
@@ -223,14 +223,14 @@ drwxr-xr-x   7 jan  staff   224B 17 Jan 20:50 .
 
 css:
 total 24
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rw-r--r--   1 jan  staff   6,0K 13 Jan 13:20 github.css
 drwxr-xr-x   4 jan  staff   128B 13 Jan 13:20 .
 -rw-r--r--   1 jan  staff   1,3K 13 Jan 13:20 design.css
 
 Grafiken:
 total 2184
-drwxr-xr-x@ 35 jan  staff   1,1K 20 Mär 10:30 ..
+drwxr-xr-x@ 35 jan  staff   1,1K 16 Mai 20:33 ..
 -rw-r--r--   1 jan  staff   222K 13 Jan 13:20 titelbild.pdf
 drwxr-xr-x   8 jan  staff   256B 13 Jan 13:20 .
 -rw-r--r--   1 jan  staff    79K 13 Jan 13:20 titelbild-beamer.pdf

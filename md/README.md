@@ -5,9 +5,9 @@ date: \today
 bibliography: literatur.bib 
 csl: zitierstil-number.csl
 ---
-# README
+# Readme
 <!--ju 17-Jan-21 -->
-Erstellt Websiten & Latex-Files mit Markdown und Pandoc.
+Erstellt Webseiten & Latex-Files mit Markdown und Pandoc.
 Projekt wurde getestet unter "iMac"   
 
 # Kurzbefehle
@@ -19,16 +19,16 @@ Projekt wurde getestet unter "iMac"
 
 ./projekt.sh  # Schritt 2, 3, 5
 ##########################################################
-	0) Projekt aufräumen
-	1) Projekt erstellen
-	2) Markdown in (tex, html5) + sed (Suchen/Ersetzen)
-	3) Kapitel erstellen + Scripte ausführen
-	4) Fotos optimieren (Web, Latex)
-	5) www + index.html
-	6) git init
-	7) git status + git log
-	8) Git-Version erstellen
-	9) Backup + Archiv erstellen
+    0) Projekt aufräumen
+    1) Projekt erstellen
+    2) Markdown in (tex, html5) + sed (Suchen/Ersetzen)
+    3) Kapitel erstellen + Scripte ausführen
+    4) Fotos optimieren (Web, Latex)
+    5) www + index.html
+    6) git init
+    7) git status + git log
+    8) Git-Version erstellen
+    9) Backup + Archiv erstellen
 ##########################################################
 
 # PDF erstellen
@@ -47,26 +47,26 @@ git push
     
 # Software
 
-- #Git Bash[^1]
-- Github-Repository klonen[^2]
+- Git Bash[^1]
+- Git-Repository klonen[^2]
 - Texlive (Latex)[^3]
-- Pandoc (Dokumentenconverter)[^4]
-- #Imagemagick (Bildbearbeitung)[^5]
+- Pandoc (Dokumentenkonverter)[^4]
+- Imagemagick (Bildbearbeitung)[^5]
 - Editor Visual Studio Code[^6]
-- #Editor Atom[^7]
-- #Editor Notepad++[^8]
-- #TeXstudio (Latexeditor)[^9]
+- Editor Atom[^7]
+- Editor Notepad++[^8]
+- TeXstudio (Latexeditor)[^9]
 - Tablesgenerator (Latex / Markdown)[^10] 
 - hpi-dokumentvorlagen-latex (Hasso-Plattner-Institut (HPI) Potsdam)[^11] 
 - Zotero (Literaturverwaltung)[^12]
-- Wordpress[^13]
-- XAMPP Apache + MariaDB + PHP[^14]
-- Filezilla[^15]
+- WordPress[^13]
+- XAMPP Apache + Maria DB + PHP[^14]
+- FileZilla[^15]
 - VM VirtualBox[^16]
-- #Ubuntu (Desktop / Server)[^17]
-- Wordpress-themes[^18]
-- themecheck (Wordpress-themes)[^19]
-- #ghostscript Z.B eps in pdf[^20]
+- Ubuntu (Desktop / Server)[^17]
+- WordPress-Themes[^18]
+- themecheck (WordPress-Themes)[^19]
+- ghostscript Z. B. EPS in PDF[^20]
 
 [^1]: <https://git-scm.com/downloads>
 [^2]: <https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git>
@@ -94,26 +94,26 @@ git push
 **Files anpassen:**
 
 1. `scripteBash/sed.sh`
-	- codelanguage: `HTML5, Python, Bash, C, C++, TeX`
-	- CMS Server Pfad: `https://bw-ju.de/#`
-	- Bildformat: svg, png, jpg, webp
+    - codelanguage: `HTML5, Python, Bash, C, C++, TeX`
+    - CMS Server Pfad: `https://bw-ju.de/#`
+    - Bildformat: SVG, PNG, JPG, WebP
 2. `scripteBash/gitversionieren.sh`
-	- "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
+    - "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
 3. `projekt.sh`
-	- THEMA="Notizen-TeX-Web-iMac"
-	- "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
-	- "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"
+    - THEMA="Notizen-TeX-Web-iMac"
+    - "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
+    - "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"
 4. `content/metadata.tex`
-	- Datum, Titel, Autor
+    - Datum, Titel, Autor
 5. `content/titelpage.tex`
-	- "Grafiken/logo.eps"
+    - "Grafiken/logo.eps"
 
 **Markdown-Files erstellen**
-	
+    
 1. Erstelle eine Datei "neu.md" im Ordner "md/"
-	- Bilder nach `images/` kopieren
-	- Vektorgrafiken  nach `Grafiken/` kopieren
-	
+    - Bilder nach `images/` kopieren
+    - Vektorgrafiken  nach `Grafiken/` kopieren
+    
 2. Script ausführen: `projekt.sh`
 
 **Terminal** öffnen
@@ -146,9 +146,9 @@ $ make distclean
 
 4. Repository auf Github erstellen
 
-# Github-Repository erstellen -- klonen
+# Git-Repository erstellen -- klonen
 
-GitHub's maximum file size of **50 MB**
+GitHub's Maximum File size of **50 MB**
 
 **Repository auf Github erstellen**
 
@@ -170,7 +170,7 @@ git remote add origin https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
 git push -u origin master
 ```
 
-**Github-Repository klonen**
+**Git-Repository klonen**
 
 ```
 git clone https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
@@ -181,48 +181,48 @@ git clone https://github.com/ju1-eu/Notizen-TeX-Web-iMac.git
 `$ ./projekt.sh`
 
 1. Projekt erstellen
-	- Verz. erstellen, wenn nicht vorhanden
+    - Verzeichnis erstellen, wenn nicht vorhanden
 2. Markdown in `*.tex und *.html`
-	- Markdown in Latex + HTML5 + Wordpress
-	- sed > Wordpress
-	- sed > Latex
+    - Markdown in Latex + HTML5 + WordPress
+    - sed > WordPress
+    - sed > Latex
 3. Kapitel erstellen + Scripte ausführen
-	- Alle Abbildungen "images/" in Markdown speichern.
-		- "archiv/input-img.txt"
-	- Latex Kapitel erstellen.
-		- Kopiere "tex-pandoc/.tex" nach "tex/"
-		- "tex/" **Handarbeit...** für opt. Ergebnisse!
-		- Kopiere "archiv/inhalt.tex" nach "content/"
-		- make -- Latex-PDF erstellen
-	- Tabellen als PDFs in Latex einfügen. "Tabellen/ ?"
-	- Inhalt vom Projektverzeichnis.
-	    - "archiv/Projekt-Inhalt.txt"
-	- Quellcode "code/" in Latex speichern.
-		- "archiv/Quellcode-files.tex"
-	  HTML, Python, Bash, C, C++, TeX
-	- Artikel aus den Ordnern erstellen
-		- "tex/"
-		- "archiv/"
-		- "Tabellen/"
-		- "content/beispiele/tex/"
-		-  wird gespeichert in "Artikel/"
-	- Alle Abbildungen "images/" in Latex speichern
-		- "archiv/Pics-files.tex"
-		- Bildgröße: `width=.80\textwidth`
+    - Alle Abbildungen "images/" in Markdown speichern.
+        - "archiv/input-img.txt"
+    - Latex Kapitel erstellen.
+        - Kopiere "tex-pandoc/.tex" nach "tex/"
+        - "tex/" **Handarbeit...** für optimale Ergebnisse!
+        - Kopiere "archiv/inhalt.tex" nach "content/"
+        - make -- Latex-PDF erstellen
+    - Tabellen als PDFs in Latex einfügen. "Tabellen/ ?"
+    - Inhalt vom Projektverzeichnis.
+        - "archiv/Projekt-Inhalt.txt"
+    - Quellcode "code/" in Latex speichern.
+        - "archiv/Quellcode-files.tex"
+      HTML, Python, Bash, C, C++, TeX
+    - Artikel aus den Ordnern erstellen
+        - "tex/"
+        - "archiv/"
+        - "Tabellen/"
+        - "content/beispiele/tex/"
+        -  wird gespeichert in "Artikel/"
+    - Alle Abbildungen "images/" in Latex speichern
+        - "archiv/Pics-files.tex"
+        - Bildgröße: `width=.80\textwidth`
 4) Fotos optimieren (Web, Latex)
 5) www + index.html
-	- "html/alle-pics.html" erstellen
-	- "index.html" erstellen
+    - "html/alle-pics.html" erstellen
+    - "index.html" erstellen
 6) `git init`
 7) `git status` + `git log`
 8) Git-Version erstellen
-	- **Pfade** anpassen in `gitversionieren.sh`
-	- lokales Repository: master
-	- Github Repository: origin/master
-	- Backup Repository: backupUSB/master
-		- "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
-9) Backup + Archiv erstellen
-	- **Pfade** anpassen in `projekt.sh`
-	- THEMA="Notizen-TeX-Web-iMac"
-	- "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
-	- "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"
+    - **Pfade** anpassen in `gitversionieren.sh`
+    - lokales Repository: master
+    - Github Repository: origin/master
+    - Sicherung Repository: backupUSB/master
+        - "/Volumes/usb-daten/meineNotizen/repository/notizen-iMac"
+9) Sicherung + Archiv erstellen
+    - **Pfade** anpassen in `projekt.sh`
+    - THEMA="Notizen-TeX-Web-iMac"
+    - "/Volumes/usb-daten/meineNotizen/backup/notizen-iMac"
+    - "/Volumes/usb-daten/meineNotizen/archiv/notizen-iMac"
