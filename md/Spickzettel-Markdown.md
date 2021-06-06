@@ -2,9 +2,12 @@
 title: 'Markdown-Spickzettel'
 author: ''
 date: \today
+subject: "Markdown"
+keywords: [Markdown, Example]
+lang: "de"
 bibliography: literatur.bib 
 csl: zitierstil-number.csl
----  
+...
 <!---------------------------
 Referenzen: 
 Quelle: [(at)monk:2014:raspberry]
@@ -117,10 +120,10 @@ c) c
 
 Grafiken-Bsp vgl. abb.
   
-![Grafiken-Bsp](Grafiken/logo.eps){width=30%}
+![Grafiken-Bsp](Grafiken/logo.pdf){width=30%}
 
 ```
-![Grafiken-Bsp](Grafiken/logo.eps){width=30%}
+![Grafiken-Bsp](Grafiken/logo.pdf){width=30%}
 ```
 
 Abbildung-Bsp vgl. abb.
@@ -153,7 +156,7 @@ Tabelle-Bsp vgl. tab.
   
 #  Mathematik
   
-$[V] = [\Omega] \cdot [A]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
+$[ V ] = [ \Omega ] \cdot [ A ]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
 
 ```
 $[ V ] = [ \Omega ] \cdot [ A ]$ o. $U = R \cdot I$ o. $R = \frac{U}{I}$
@@ -163,7 +166,7 @@ $5~cm$, $a \cdot b$, $\cdots$, $\Omega$
 
 $100^\circ\text{C}$  
 
-$80~\\%$           
+$80~\%$  // in HTML
 
 ```
 $5~cm$, $a \cdot b$, $\cdots$, $\Omega$

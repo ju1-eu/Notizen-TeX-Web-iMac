@@ -1,11 +1,10 @@
-# ju 10-Aug-20 
-# [WARNING] Could not convert image svg > pdf   rsvg-convert
+# ju 6-Jun-21 
 
 TARGETDIR = build
 #TARGET = book
 #SRC = Writing-Markdown.md meta-markdown.md \ 
 #      README.md titlepage.md  titlepage2.md  
-SRC1 = "Kfm-Uben"
+SRC1 ="Spickzettel-Markdown"
 SRC2 = "README"
 #SRC3 = beamer
 #CSS = "../design.css"
@@ -16,7 +15,7 @@ BIB_3 = "literatur-sport.bib"
 CSL = "zitierstil-number.csl"
 TEMPLATE = "pandoc.latex"
 HTMLOPTIONS = -s -t html5 --from markdown+smart --bibliography $(BIB_1) --bibliography $(BIB_2) --bibliography $(BIB_3) --citeproc --csl $(CSL) --mathjax --strip-comments --toc -c $(CSS)
-PDFOPTIONS = --number-sections --from markdown --template $(TEMPLATE) --listings --bibliography $(BIB_1) --bibliography $(BIB_2) --bibliography $(BIB_3) --citeproc --csl $(CSL) -V lang=de
+PDFOPTIONS = --number-sections --from markdown --template $(TEMPLATE) --listings --bibliography $(BIB_1) --bibliography $(BIB_2) --bibliography $(BIB_3) --citeproc --csl $(CSL) --pdf-engine=xelatex
 BEAMER = --to beamer
 all: pdf html docx
 	@echo "Alles erledigt!"

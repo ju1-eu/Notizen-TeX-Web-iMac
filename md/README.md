@@ -2,9 +2,12 @@
 title: 'README'
 author: ''
 date: \today
+subject: "Markdown"
+keywords: [Markdown, Example]
+lang: "de"
 bibliography: literatur.bib 
 csl: zitierstil-number.csl
----
+...
 # Readme
 <!--ju 17-Jan-21 -->
 Erstellt Webseiten & Latex-Files mit Markdown und Pandoc.
